@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Distribution / build
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime artifacts (created by scripts) — see new/AGENTS.md
+processed_data/
+data/SGFs/
+train_log/
+test_log/
+savedmodels/
+result.txt
+new/savedmodels/
+new/replay/
+new/logs/
+*.pkl
